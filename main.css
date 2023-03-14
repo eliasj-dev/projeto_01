@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 25px 0;
+    background-color:#0a622194;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header li a, .container-footer li i {
+    text-decoration: none;
+    color: #010105fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h3-introduction {
+    display: block;
+    padding: 20px 0;
+}
+
+.h2-introduction {
+display: flex;
+justify-content: center;
+font-size: 40px;
+}
+
+.introduction-img {
+width: 100%;
+}
+
+.container h2, a, .container-introduction h2, .titlle, .container-introduction h3, .container-footer h2 {
+    font-family: 'Gajraj One', cursive;
+    font-weight: normal;
+}
+
+.container h4, h3, .container-about h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+}
+
+
+.container, .container-about {
+    max-width: 1280px;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.container h2 {
+    font-size: 30px;
+}
+
+.article-content i {
+    font-family: 'Oswald', sans-serif;
+}
+
+.titlle {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1290px;
+    width: 100%;
+    padding: 25px 0;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.titlle h2 {
+    margin-left: 50px;
+    font-weight: normal;
+}
+
+section .container-about {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: normal;
+}
+
+section .container-introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+section {
+    padding: 24px 0;
+}
+
+section .my-picture {
+    margin-right: 36px;
+    width: 10%;
+}
+
+.section-content {
+    display: block;
+} 
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.imagem {
+    text-align: center;
+    padding: 25px 16px;
+}
+
+.article-content{
+    padding: 25px 16px;
+}
+
+.articles article img {
+    width: 70%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+#books {
+padding: 0px 0 24px;
+}
+
+section h4, .articles article {
+    margin-top: 16px;
+}
+
+.article-content h3{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.titlle, .section-content {
+    background-color: #07489959;
+}
+
+#books,#albuns,#movies, body, #introduction {
+    background-color:#0b272b;
+}
+
+#about {
+    background-color: #090923;
+    color: #e9f7fa;
+    padding: 24px 0 0;
+}
+
+#introduction {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1290px ;
+    display: flex;
+    color:#9ee9fa;
+    justify-content: center;
+    
+}
+
+.titlle, .container h2, .article-content {
+    color: #4ccbe6;
+}
+
+.container h2, header li a, .container-footer h2 {
+    color: rgb(34 238 89 / 98%);
+}
+
+.container-introduction {
+    display: inline;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 10%;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+form textarea, button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+    margin-top: 24px;
+    border-color: #091cff;
+}
+
+form button {
+    background-color: #0fb4d970;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #30bbe2;
+}
+
+.container-footer {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+}
+
+.socials i {
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
